@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Suite" verbose="1" >
+    <test name="In Progress" >
+        <parameter name="testName" value="Demo"/>
+
+        <classes>
+            <class name="tests.base.BaseTests"/>
+        </classes>
+    </test>
+</suite>
+
